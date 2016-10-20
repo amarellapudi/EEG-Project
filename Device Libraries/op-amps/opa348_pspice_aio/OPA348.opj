@@ -1,0 +1,91 @@
+(ExpressProject "OPA348"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\opa348.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\opa348.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa348-pspicefiles\schematic1\tran.sim"
+        (DisplayName "SCHEMATIC1-tran")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa348-pspicefiles\schematic1\dc.sim"
+        (DisplayName "SCHEMATIC1-dc")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa348-pspicefiles\schematic1\ac.sim"
+        (DisplayName "SCHEMATIC1-ac")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\opa348-pspicefiles\schematic1\tran.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\opa348.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (OPA348
+      (FullPartName "OPA348.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\OPA348\RELEASE_SANKALP\PSPICE\OPA348_PSPICE_AIO\OPA348.OLB")
+      (DeviceIndex "0"))
+    (IAC
+      (FullPartName "IAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\ELABTRANS_WS\ELABTRANS_DS\Part_Numbers\OPA348\Release_Sankalp\PSPICE\OPA348_PSPICE_AIO\opa348.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 5 205 3 565"))
+      (Tab 0)))
+  (MPSSessionName "x0146065"))
