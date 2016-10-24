@@ -1,9 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [EEG.PrjPcb]
+Output: Mixed Sim
+Type  : AdvSimNetlist
+From  : Project [EEG.PrjPcb]
+   Generated File[EEG.nsx]
 
 
-Files Generated   : 0
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 10:40:09 AM On 10/19/2016
+Finished Output Generation At 11:41:54 PM On 10/23/2016
